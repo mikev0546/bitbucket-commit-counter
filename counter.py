@@ -7,6 +7,7 @@ import math
 year = 2022
 login_string = "YOUR_BITBUCKET_USERNAME:YOUR_BITBUCKET_APP_KEY"
 workspace = "YOUR_WORKSPACE"
+# By a lot of repo's 100 is recommended because of the rate limit of the API
 pagelen = 100
 
 #vars
