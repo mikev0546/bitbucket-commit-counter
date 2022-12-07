@@ -1,4 +1,4 @@
-# bitbucket-commit-counter 
+# bitbucket commit counter 
 
 ## Features
 
