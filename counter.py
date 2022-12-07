@@ -4,9 +4,9 @@ import math
 
 
 # Configuration
-year = 2020
+year = 2022
 login_string = "YOUR_BITBUCKET_USERNAME:YOUR_BITBUCKET_APP_KEY"
-workspace = "stijlgenoten"
+workspace = "YOUR_WORKSPACE"
 pagelen = 100
 
 #vars
