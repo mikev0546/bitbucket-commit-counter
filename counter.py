@@ -63,9 +63,9 @@ while counterPages < amountOfPages:
 				
 
 		if(commitCount >= 1):
-			repoCommits['stijlgenoten/{repo}'.format(repo=repoSlug)] = commitCount		
+			repoCommits['{repo}'.format(repo=repoSlug)] = commitCount		
 			print ("Total authors: {authors}".format(authors=commitsAuthors))
-			print ("Total commits in stijlgenoten/{repo}: {count}".format(repo=repoSlug, count=commitCount))	
+			print ("Total commits in {repo}: {count}".format(repo=repoSlug, count=commitCount))	
 		totalCommits += commitCount	
 		#reset counters
 		commitCount = 0
